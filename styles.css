@@ -1,4 +1,42 @@
 body {
-  background-color: gray;
-  margin: 0 auto;
+  background-image: url(background.jpg);
+  font-size: large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: whitesmoke;
+}
+
+#underline {
+  border-bottom: 2px solid rgb(233, 18, 18);
+}
+
+.github figcaption {
+  font-size: smaller;
+  width: 300px;
+  border: 1px solid red;
+}
+
+.github img {
+  width: 300px;
+}
+
+#click {
+  color: rgba(255, 0, 0, 0.712);
+  text-shadow: 0 10px 2px white;
+}
+
+.Projects ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#heading {
+  font-weight: bolder;
+  text-shadow: 0 10px 5px red;
+}
+
+.iframe {
+  border: 3px solid rgb(245, 229, 11);
+  margin: 5px;
+  border-radius: 20px;
 }
