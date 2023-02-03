@@ -44,3 +44,9 @@ blockquote {
   border: 2px solid whitesmoke;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgba(24, 75, 92, 0.692);
+  }
+}
