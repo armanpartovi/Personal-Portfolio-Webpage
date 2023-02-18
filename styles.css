@@ -13,6 +13,13 @@ blockquote {
   text-align: center;
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+}
+
 #navbar {
   position: fixed;
   top: 0;
@@ -36,13 +43,6 @@ blockquote {
   text-align: center;
   font-size: 20px;
   padding-top: 50px;
-}
-
-.logo {
-  width: 100px;
-  height: 100px;
-  border: 2px solid whitesmoke;
-  border-radius: 50%;
 }
 
 @media only screen and (max-width: 600px) {
